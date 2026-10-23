@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>El Bocadito — Taberna, brasa y producto de Lanzarote · Costa Teguise</title>
+  <meta name="description" content="Taberna, tapas y restaurante en Costa Teguise, Lanzarote. Chuletas maduradas a la brasa de encina, producto local, vinos volcánicos de La Geria. Reservas: 828 068 417." />
+  <meta name="theme-color" content="#0C0B09" />
+  <link rel="icon" href="favicon.png" />
+  <meta property="og:title" content="El Bocadito — Taberna · Tapas · Restaurante" />
+  <meta property="og:description" content="Brasa de encina, chuletas maduradas y producto de Lanzarote en Costa Teguise." />
+  <meta property="og:image" content="img/madurada-nacho.jpg" />
+  <link rel="preload" href="fonts/cinzel.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="img/brasa-chuleton.jpg" as="image" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "El Bocadito — Taberna · Tapas · Restaurante",
+    "servesCuisine": ["Canaria", "Española", "Carnes a la brasa"],
+    "telephone": "+34828068417",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Avda. Islas Canarias, 16 · C.C. Los Charcos",
+      "postalCode": "35509",
+      "addressLocality": "Costa Teguise",
+      "addressRegion": "Las Palmas",
+      "addressCountry": "ES"
+    },
+    "openingHours": "Mo-Su 12:00-23:00",
+    "sameAs": ["https://www.instagram.com/tabernaelbocadito/"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Saltar al contenido</a>
+
+  <!-- ============ CABECERA ============ -->
+  <header class="hdr" id="hdr">
+    <nav class="hdr-nav" aria-label="Principal">
+      <a href="#taberna" data-i18n="nav.s1">Taberna</a>
+      <a href="#carta" data-i18n="nav.s2">Carta</a>
+      <a href="#bodega" data-i18n="nav.s3">Bodega</a>
+      <a href="#producto" data-i18n="nav.s4">Producto</a>
+      <a href="#espacio" data-i18n="nav.s5">Espacio</a>
+    </nav>
+
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+      <span></span><span></span>
+    </button>
+
+    <a class="brand" href="#top" aria-label="El Bocadito, inicio">
+      <img src="img/monograma.png" alt="" width="40" height="40" />
+      <span class="brand-txt">
+        <span class="brand-name">El Bocadito</span>
+        <span class="brand-sub">Taberna · Tapas · Restaurante</span>
+      </span>
+    </a>
+
+    <div class="hdr-end">
+      <div class="lang" role="group" aria-label="Idioma">
+        <button type="button" data-lang="es" aria-pressed="true">ES</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="hdr-cta" href="#reservar">
+        <span data-i18n="nav.reservar">Reservar</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- Menú móvil -->
+  <div class="menu" id="menu" hidden>
+    <nav aria-label="Menú móvil">
+      <a href="#taberna" data-i18n="nav.taberna">La Taberna</a>
+      <a href="#carta" data-i18n="nav.carta">La Carta</a>
+      <a href="#bodega" data-i18n="nav.bodega">La Bodega</a>
+      <a href="#producto" data-i18n="nav.producto">El Producto</a>
+      <a href="#espacio" data-i18n="nav.espacio">El Espacio</a>
+      <a href="#contacto" data-i18n="nav.contacto">Contacto</a>
+    </nav>
+    <div class="menu-foot">
+      <a href="tel:+34828068417">828 068 417</a>
+      <span>Avda. Islas Canarias, 16 · Costa Teguise</span>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top" aria-roledescription="carrusel" aria-label="Presentación">
+      <div class="hero-slides">
+        <figure class="slide is-on" style="--pos: 50% 55%">
+          <img src="img/brasa-chuleton.jpg" alt="Chuletón madurado sobre la brasa de encina, entre el humo" fetchpriority="high" />
+        </figure>
+        <figure class="slide" style="--pos: 50% 42%">
+          <img src="img/madurada-nacho.jpg" alt="Cortes madurados de vacuno sobre la tabla de la taberna" loading="lazy" />
+        </figure>
+        <figure class="slide" style="--pos: 50% 50%">
+          <img src="img/interior.jpg" alt="Comedor de la taberna con cabeza de toro y luz cálida" loading="lazy" />
+        </figure>
+      </div>
+      <div class="hero-shade"></div>
+
+      <div class="hero-inner">
+        <p class="eyebrow hero-eyebrow" data-i18n="hero.eyebrow">Costa Teguise · Lanzarote</p>
+        <h1 class="hero-titles">
+          <span class="sr-only">El Bocadito — </span>
+          <span class="hero-title is-on" data-i18n="hero.t1">Fuego y paciencia</span>
+          <span class="hero-title" data-i18n="hero.t2">Cortes con historia</span>
+          <span class="hero-title" data-i18n="hero.t3">Una taberna con alma</span>
+        </h1>
+        <span class="rule" aria-hidden="true"></span>
+        <p class="hero-sub" data-i18n="hero.sub">Producto local, brasa de encina y cocina para compartir en el corazón de Lanzarote.</p>
+      </div>
+
+      <div class="hero-foot">
+        <ul class="honors">
+          <li data-i18n="hero.h1">Solete Guía Repsol</li>
+          <li data-i18n="hero.h2">Travellers’ Choice</li>
+          <li data-i18n="hero.h3">Mejor tortilla de Canarias</li>
+        </ul>
+        <div class="dots" role="tablist" aria-label="Diapositivas">
+          <button role="tab" aria-selected="true" aria-label="1"><i></i></button>
+          <button role="tab" aria-selected="false" aria-label="2"><i></i></button>
+          <button role="tab" aria-selected="false" aria-label="3"><i></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LA TABERNA ============ -->
+    <section class="intro" id="taberna">
+      <div class="wrap narrow">
+        <p class="eyebrow dark rv" data-i18n="taberna.eyebrow">Nuestra casa</p>
+        <h2 class="h2 rv" data-i18n="taberna.titulo">La Taberna</h2>
+        <p class="statement rv" data-i18n="taberna.statement">El Bocadito nace del amor por las <em>cosas bien hechas</em>: una barra donde parar el tiempo, <em>tapas que saben a isla</em> y una brasa que <em>no tiene prisa</em>.</p>
+        <p class="body rv" data-i18n="taberna.p">Trabajamos con producto de Lanzarote — pescado de la costa, quesos de la tierra, tomates volcánicos de Tinajo, vinos de La Geria — y lo tratamos con el respeto que merece. Ven a picar algo en la barra o quédate a una de esas comidas largas de sobremesa.</p>
+        <div class="sign rv">
+          <img src="img/monograma.png" alt="" width="52" height="52" />
+          <span>Nacho González<small data-i18n="taberna.firma">Propietario &amp; anfitrión</small></span>
+        </div>
+      </div>
+      <ul class="facts wrap">
+        <li class="rv"><strong>100 %</strong><span data-i18n="facts.f1">carbón y leña de encina</span></li>
+        <li class="rv" style="--d:.1s"><strong>61</strong><span data-i18n="facts.f2">referencias en bodega</span></li>
+        <li class="rv" style="--d:.2s"><strong>12 — 23 h</strong><span data-i18n="facts.f3">abierto todos los días</span></li>
+      </ul>
+    </section>
+
+    <!-- ============ LA CARTA (portada) ============ -->
+    <section class="cover" id="carta">
+      <div class="cover-media" data-speed="-0.12">
+        <img src="img/carpaccio-wagyu.jpg" alt="Carpaccio de wagyu con cebollino y brotes" loading="lazy" style="object-position: 50% 45%" />
+      </div>
+      <div class="cover-shade"></div>
+      <div class="cover-copy wrap">
+        <p class="eyebrow rv" data-i18n="carta.eyebrow">Para compartir</p>
+        <h2 class="display rv" data-i18n="carta.titulo">La Carta</h2>
+        <p class="lead rv" data-i18n="carta.p">Tapas canarias, pescado de lonja y cortes nobles a la brasa. Cocina honesta y de temporada, pensada para el centro de la mesa.</p>
+        <div class="btns rv">
+          <button class="btn" type="button" data-open="cocina" data-i18n="carta.btn">Carta completa</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SELECCIÓN DE LA CASA ============ -->
+    <section class="menu-list" aria-labelledby="sel-title">
+      <figure class="float f1" data-speed="0.18"><img src="img/alcachofas.jpg" alt="Flores de alcachofa confitadas" loading="lazy" /></figure>
+      <figure class="float f2" data-speed="-0.14"><img src="img/carabineros.jpg" alt="Gambas rojas con perejil y limón" loading="lazy" /></figure>
+      <figure class="float f3" data-speed="0.12"><img src="img/croquetas.jpg" alt="Croquetas caseras sobre alioli" loading="lazy" /></figure>
+      <figure class="float f4" data-speed="-0.16"><img src="img/pescado-arroz-negro.jpg" alt="Taco de bacalao sobre arroz negro" loading="lazy" /></figure>
+      <figure class="float f5" data-speed="0.14"><img src="img/postre.jpg" alt="Copa de helado con ron canario y pasas" loading="lazy" /></figure>
+
+      <div class="wrap narrow center">
+        <img class="seal rv" src="img/monograma.png" alt="" width="64" height="64" />
+        <h2 class="h3 rv" id="sel-title" data-i18n="sel.titulo">Selección de la casa</h2>
+        <span class="rule rv" aria-hidden="true"></span>
+
+        <ol class="courses">
+          <li class="rv"><h3 data-i18n="sel.g1">Para abrir</h3><p data-i18n="sel.g1d">Carpaccio de wagyu · Ensalada de tomate de Tinajo · La tortilla de Marta</p></li>
+          <li class="rv"><h3 data-i18n="sel.g2">De la huerta</h3><p data-i18n="sel.g2d">Flores de alcachofa · Salteado de setas, foie y piñones</p></li>
+          <li class="rv"><h3 data-i18n="sel.g3">Del mar</h3><p data-i18n="sel.g3d">Gambas rojas en cama de sal · Pulpo a la plancha · Chipirones</p></li>
+          <li class="rv"><h3 data-i18n="sel.g4">Nuestros arroces</h3><p data-i18n="sel.g4d">Arroz negro con taco de bacalao · Risotto cremoso de carabineros</p></li>
+          <li class="rv"><h3 data-i18n="sel.g5">De la brasa</h3><p data-i18n="sel.g5d">Ribeye · Lagarto ibérico · Parrillada de carnes</p></li>
+          <li class="rv"><h3 data-i18n="sel.g6">Chuletas maduradas</h3><p data-i18n="sel.g6d">Wagyu · Rubia gallega · Barrosã · Minhota portuguesa</p></li>
+          <li class="rv"><h3 data-i18n="sel.g7">Dulce final</h3><p data-i18n="sel.g7d">La tartanaria de queso · Bienmesabe · Torrijas lanzaroteñas</p></li>
+        </ol>
+
+        <p class="note rv" data-i18n="sel.nota">IGIC incluido · Pregunta por las carnes y sugerencias fuera de carta</p>
+        <button class="btn ghost rv" type="button" data-open="cocina" data-i18n="sel.btn">Ver carta y precios</button>
+      </div>
+    </section>
+
+    <!-- ============ LA BODEGA ============ -->
+    <section class="cover right" id="bodega">
+      <div class="cover-media" data-speed="-0.12">
+        <img src="img/barra-vino.jpg" alt="Copa de vino tinto en la barra junto a pan con tomate" loading="lazy" style="object-position: 60% 50%" />
+      </div>
+      <div class="cover-shade"></div>
+      <div class="cover-copy wrap">
+        <p class="eyebrow rv" data-i18n="bodega.eyebrow">Sesenta y una referencias</p>
+        <h2 class="display rv" data-i18n="bodega.titulo">La Bodega</h2>
+        <p class="lead rv" data-i18n="bodega.p">Del blanco volcánico de Lanzarote a los grandes de Ribera del Duero y Rioja. Champagne, espumosos y una selección del sumiller para las noches que se recuerdan.</p>
+        <div class="btns rv">
+          <button class="btn" type="button" data-open="bodega" data-i18n="bodega.btn">Ver la bodega</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EL PRODUCTO ============ -->
+    <section class="product" id="producto">
+      <div class="wrap product-grid">
+        <div class="product-media">
+          <figure class="pm-main rv"><img src="img/camara-maduracion.jpg" alt="Chuletones madurando en la cámara" loading="lazy" /></figure>
+          <figure class="pm-small rv" style="--d:.15s" data-speed="-0.08"><img src="img/lomo-brasa.jpg" alt="Lomo a la brasa fileteado, rosado en el centro" loading="lazy" /></figure>
+        </div>
+        <div class="product-copy">
+          <p class="eyebrow rv" data-i18n="producto.eyebrow">Cortes nobles</p>
+          <h2 class="h2 light rv" data-i18n="producto.titulo">El Producto</h2>
+          <p class="statement light rv" data-i18n="producto.p1">No es solo carne: es <em>origen</em>, <em>tiempo</em> y <em>respeto</em>. Elegimos cada chuleta en las mejores ganaderías de Europa y la dejamos madurar hasta que habla por sí sola.</p>
+          <ol class="origins">
+            <li class="rv"><span class="num">I</span><span class="o-name">Wagyu</span><span class="o-from" data-i18n="producto.o1">Santa Rosalía</span></li>
+            <li class="rv"><span class="num">II</span><span class="o-name">Rubia gallega</span><span class="o-from">Galicia</span></li>
+            <li class="rv"><span class="num">III</span><span class="o-name">Barrosã</span><span class="o-from" data-i18n="producto.o3">Norte de Portugal</span></li>
+            <li class="rv"><span class="num">IV</span><span class="o-name">Minhota</span><span class="o-from" data-i18n="producto.o4">Minho, Portugal</span></li>
+          </ol>
+          <p class="body light rv" data-i18n="producto.p2">Cada pieza se pesa delante de ti, pasa por brasa de carbón y leña de encina y llega a la mesa fileteada, sobre plancha caliente.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EL ESPACIO ============ -->
+    <section class="space" id="espacio">
+      <div class="wrap space-head">
+        <div>
+          <p class="eyebrow rv" data-i18n="espacio.eyebrow">Tradición y encanto</p>
+          <h2 class="h2 light rv" data-i18n="espacio.titulo">El Espacio</h2>
+        </div>
+        <p class="body light rv" data-i18n="espacio.p">Una cabeza de toro, luz cálida y una colección de cajetillas antiguas que guarda la memoria de las tabernas de siempre. Siéntate cerca de la barra, pide un vino volcánico y déjate llevar.</p>
+      </div>
+
+      <div class="rail-wrap">
+        <ul class="rail" id="rail" tabindex="0" aria-label="Galería del espacio">
+          <li><figure><img src="img/interior.jpg" alt="Comedor con cabeza de toro y lámpara colgante" loading="lazy" /><figcaption data-i18n="espacio.c1">El comedor</figcaption></figure></li>
+          <li><figure><img src="img/cajetillas.jpg" alt="Estanterías con cajetillas de tabaco antiguas" loading="lazy" /><figcaption data-i18n="espacio.c2">El rincón de la nostalgia</figcaption></figure></li>
+          <li class="wide"><figure><img src="img/fachada.jpg" alt="Fachada de El Bocadito entre palmeras en Costa Teguise" loading="lazy" /><figcaption data-i18n="espacio.c3">Avda. Islas Canarias, Costa Teguise</figcaption></figure></li>
+          <li><figure><img src="img/servicio-vino.jpg" alt="Camarero sirviendo vino blanco en la mesa" loading="lazy" /><figcaption data-i18n="espacio.c4">Servicio en mesa</figcaption></figure></li>
+          <li><figure><img src="img/setas.jpg" alt="Salteado de setas, foie, alcachofas y piñones" loading="lazy" /><figcaption data-i18n="espacio.c5">Desde la cocina</figcaption></figure></li>
+        </ul>
+        <div class="rail-ctrl wrap">
+          <span class="rail-count"><b id="railNow">01</b> / <span id="railTotal">05</span></span>
+          <span class="rail-bar"><i id="railBar"></i></span>
+          <button type="button" class="arrow" id="railPrev" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <button type="button" class="arrow" id="railNext" aria-label="Siguiente"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESERVAR ============ -->
+    <section class="duo" id="reservar">
+      <a class="duo-panel" href="tel:+34828068417">
+        <img src="img/brasa-chuleton.jpg" alt="" loading="lazy" />
+        <span class="duo-copy">
+          <span class="eyebrow" data-i18n="reservar.e1">Te guardamos mesa</span>
+          <span class="display" data-i18n="reservar.t1">Reservar</span>
+          <span class="duo-link">828 068 417 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </span>
+      </a>
+      <a class="duo-panel" href="https://maps.google.com/?q=Taberna+El+Bocadito,+Avenida+Islas+Canarias+16,+Costa+Teguise" target="_blank" rel="noopener">
+        <img src="img/fachada.jpg" alt="" loading="lazy" />
+        <span class="duo-copy">
+          <span class="eyebrow" data-i18n="reservar.e2">C.C. Los Charcos</span>
+          <span class="display" data-i18n="reservar.t2">Cómo llegar</span>
+          <span class="duo-link" data-i18n="reservar.l2">Abrir en Google Maps <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </span>
+      </a>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="contact" id="contacto">
+      <div class="wrap">
+        <p class="eyebrow center rv" data-i18n="contacto.eyebrow">Contacto</p>
+        <h2 class="display center rv" data-i18n="contacto.titulo">Te esperamos</h2>
+        <div class="contact-grid">
+          <div class="rv">
+            <h3 data-i18n="contacto.tel">Teléfono</h3>
+            <a href="tel:+34828068417">828 068 417</a>
+          </div>
+          <div class="rv" style="--d:.08s">
+            <h3 data-i18n="contacto.dir">Dirección</h3>
+            <a href="https://maps.google.com/?q=Taberna+El+Bocadito,+Avenida+Islas+Canarias+16,+Costa+Teguise" target="_blank" rel="noopener">Avda. Islas Canarias, 16<br />C.C. Los Charcos<br />35509 Costa Teguise</a>
+          </div>
+          <div class="rv" style="--d:.16s">
+            <h3 data-i18n="contacto.horario">Horario</h3>
+            <p data-i18n="contacto.horarioTxt">Todos los días<br />12:00 — 23:00 h</p>
+          </div>
+          <div class="rv" style="--d:.24s">
+            <h3 data-i18n="contacto.redes">Síguenos</h3>
+            <a href="https://www.instagram.com/tabernaelbocadito/" target="_blank" rel="noopener">@tabernaelbocadito</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ PIE ============ -->
+  <footer class="ftr">
+    <div class="wrap ftr-grid">
+      <img class="ftr-logo" src="img/logo.png" alt="El Bocadito — Taberna · Tapas · Restaurante · Nacho González" width="220" height="151" loading="lazy" />
+      <div class="ftr-col">
+        <p>Avda. Islas Canarias, 16 · C.C. Los Charcos<br />35509 Costa Teguise, Las Palmas</p>
+        <p><a href="tel:+34828068417">828 068 417</a> · <a href="https://www.instagram.com/tabernaelbocadito/" target="_blank" rel="noopener">Instagram</a></p>
+      </div>
+      <div class="ftr-col">
+        <p class="ftr-legal">
+          <a href="https://www.tabernaelbocadito.com/aviso-legal" data-i18n="footer.aviso">Aviso legal</a>
+          <a href="https://www.tabernaelbocadito.com/privacidad" data-i18n="footer.privacidad">Privacidad</a>
+          <a href="https://www.tabernaelbocadito.com/cookies" data-i18n="footer.cookies">Cookies</a>
+        </p>
+        <p class="ftr-copy">© <span id="year">2026</span> El Bocadito · <span data-i18n="footer.derechos">Todos los derechos reservados</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ CARTA COMPLETA (diálogo) ============ -->
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
+    <div class="sheet-bar">
+      <div class="toggle" role="tablist" aria-label="Carta">
+        <span class="toggle-pill" aria-hidden="true"></span>
+        <button type="button" role="tab" data-tab="cocina" aria-selected="true" data-i18n="sheet.cocina">Cocina</button>
+        <button type="button" role="tab" data-tab="bodega" aria-selected="false" data-i18n="sheet.bodega">Bodega</button>
+      </div>
+      <button class="sheet-close" type="button" id="sheetClose" aria-label="Cerrar carta">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="sheet-body" id="sheetBody">
+      <header class="sheet-head">
+        <img src="img/monograma.png" alt="" width="56" height="56" />
+        <h2 class="h3" id="sheetTitle" data-i18n="sheet.titulo">La Carta</h2>
+        <p class="note" data-i18n="sheet.nota">IGIC incluido · Consulta alérgenos con nuestro equipo</p>
+      </header>
+      <div id="sheetContent"></div>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
